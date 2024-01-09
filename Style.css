@@ -1,0 +1,74 @@
+*{
+	margin :0;
+	padding : 0;
+}
+
+body{
+	  background-color: bisque;
+	  text-align: center;
+}
+
+h1 {
+	 font-size: 10vmin;
+	 font-weight: bold;
+}
+
+#newbtn{
+          height: 10vmin;
+		  width: 20vmin;
+		  background-color: black;
+		  color :aliceblue;
+		  border-radius: 1rem;
+		  cursor: pointer;
+}
+
+#msg{
+	font-size: 10vmin;
+	font-weight: bold;
+	color: coral;
+}
+
+#resetbtn{
+	height: 10vmin;
+	width: 25vmin;
+	background-color: black;
+	color :aliceblue;
+	border-radius: 1rem;
+	cursor: pointer;
+	
+   
+}
+
+
+
+.container{
+	         height: 70vh;
+			
+			 
+}
+
+.Game{
+	   height: 60vmin;
+	   width: 60vmin;
+	   display: flex;
+	   flex-wrap: wrap;
+	   justify-content: center;
+	   text-align: center;
+	   gap : 1.5vmin;
+	   margin-left: 36%;
+	   margin-top: 3%;
+}
+
+.box{
+	  height: 18vmin;
+	  width: 18vmin;
+	  border-radius: 1rem;
+	  box-shadow: 0 0 0 rgba(11, 11, 11, 0.516);
+	  border: none;
+	  font-size: 11vmin;
+	  font-weight: bold;
+	  background-color: rgb(51, 94, 94);
+	  color: black;
+
+}
+
